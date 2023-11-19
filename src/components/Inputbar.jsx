@@ -2,6 +2,9 @@ import React from 'react';
 
 const Inputbar = ({ title, placeholder }) => {
     return (
+
+        // Input Component
+
         <div className='w-full'>
             <div className='my-3'>
                 <p className='my-2'>{title}</p>

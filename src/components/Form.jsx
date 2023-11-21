@@ -11,7 +11,7 @@ const Form = () => {
     return (
         <>
             <div className='px-2 md:p-0'>
-                <div className='max-w-[512px] md:w-[512px] mx-auto my-6 bg-white rounded-xl'>
+                <div className='max-w-[660px] md:w-[660px] mx-auto my-6 bg-white rounded-xl'>
 
                     {/* Edit The Event Name Here  */}
                     <EventName name={"Event Name"} />

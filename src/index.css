@@ -6,7 +6,7 @@
 @tailwind components;
 @tailwind utilities;
 
-*{
+* {
   padding: 0;
   margin: 0;
 }
@@ -14,14 +14,14 @@
 
 body {
   /* background: url('./assets/20289379_6282340.jpg'); */
-  background: linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0)),
-              url('./assets/background.mp4');
-  background: -o-linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0)),
-              url('./assets/background.mp4');
-  background: -moz-linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0)),
-  url('./assets/background.mp4');
-  background: -webkit-linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0)),
-  url('./assets/background.mp4');               
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)),
+    url('./assets/Desktop - 2.svg');
+  background: -o-linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)),
+    url('./assets/Desktop - 2.svg');
+  background: -moz-linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)),
+    url('./assets/Desktop - 2.svg');
+  background: -webkit-linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)),
+    url('./assets/Desktop - 2.svg');
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -32,4 +32,3 @@ body {
   scroll-behavior: smooth;
   -webkit-text-size-adjust: 100%;
 }
-
